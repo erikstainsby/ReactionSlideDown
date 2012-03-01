@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		034CDE5914FFE2F000193D04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CDE5814FFE2F000193D04 /* Cocoa.framework */; };
 		034CDE6314FFE2F000193D04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034CDE6114FFE2F000193D04 /* InfoPlist.strings */; };
+		034CDF1014FFE4D500193D04 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CDF0F14FFE4D500193D04 /* RSTrixiePlugin.framework */; };
+		034CDF3914FFE6F500193D04 /* ReactionSlideDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 034CDF3714FFE6F500193D04 /* ReactionSlideDown.m */; };
+		034CDF3A14FFE6F500193D04 /* ReactionSlideDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034CDF3814FFE6F500193D04 /* ReactionSlideDown.xib */; };
+		034CDF4914FFE84D00193D04 /* ReactionSlideDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 034CDF3614FFE6F500193D04 /* ReactionSlideDown.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +21,13 @@
 		034CDE5B14FFE2F000193D04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		034CDE5C14FFE2F000193D04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		034CDE5D14FFE2F000193D04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		034CDE6014FFE2F000193D04 /* ReactionSlideDown-Info.plist */ = {isa = PBXFileReference; path = "ReactionSlideDown-Info.plist"; sourceTree = "<group>"; };
+		034CDE6014FFE2F000193D04 /* ReactionSlideDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactionSlideDown-Info.plist"; sourceTree = "<group>"; };
 		034CDE6214FFE2F000193D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		034CDE6414FFE2F000193D04 /* ReactionSlideDown-Prefix.pch */ = {isa = PBXFileReference; path = "ReactionSlideDown-Prefix.pch"; sourceTree = "<group>"; };
+		034CDE6414FFE2F000193D04 /* ReactionSlideDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactionSlideDown-Prefix.pch"; sourceTree = "<group>"; };
+		034CDF0F14FFE4D500193D04 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug/RSTrixiePlugin.framework"; sourceTree = "<group>"; };
+		034CDF3614FFE6F500193D04 /* ReactionSlideDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionSlideDown.h; sourceTree = "<group>"; };
+		034CDF3714FFE6F500193D04 /* ReactionSlideDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionSlideDown.m; sourceTree = "<group>"; };
+		034CDF3814FFE6F500193D04 /* ReactionSlideDown.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactionSlideDown.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034CDF1014FFE4D500193D04 /* RSTrixiePlugin.framework in Frameworks */,
 				034CDE5914FFE2F000193D04 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,6 +63,7 @@
 		034CDE5714FFE2F000193D04 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				034CDF0F14FFE4D500193D04 /* RSTrixiePlugin.framework */,
 				034CDE5814FFE2F000193D04 /* Cocoa.framework */,
 				034CDE5A14FFE2F000193D04 /* Other Frameworks */,
 			);
@@ -74,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				034CDE5F14FFE2F000193D04 /* Supporting Files */,
+				034CDF3614FFE6F500193D04 /* ReactionSlideDown.h */,
+				034CDF3714FFE6F500193D04 /* ReactionSlideDown.m */,
+				034CDF3814FFE6F500193D04 /* ReactionSlideDown.xib */,
 			);
 			path = ReactionSlideDown;
 			sourceTree = "<group>";
@@ -90,6 +103,17 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		034CDF4814FFE84600193D04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034CDF4914FFE84D00193D04 /* ReactionSlideDown.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		034CDE5414FFE2F000193D04 /* ReactionSlideDown */ = {
 			isa = PBXNativeTarget;
@@ -98,6 +122,7 @@
 				034CDE5114FFE2F000193D04 /* Sources */,
 				034CDE5214FFE2F000193D04 /* Frameworks */,
 				034CDE5314FFE2F000193D04 /* Resources */,
+				034CDF4814FFE84600193D04 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -140,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				034CDE6314FFE2F000193D04 /* InfoPlist.strings in Resources */,
+				034CDF3A14FFE6F500193D04 /* ReactionSlideDown.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				034CDF3914FFE6F500193D04 /* ReactionSlideDown.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,10 +244,15 @@
 		034CDE6814FFE2F000193D04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactionSlideDown/ReactionSlideDown-Prefix.pch";
 				INFOPLIST_FILE = "ReactionSlideDown/ReactionSlideDown-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -229,10 +261,15 @@
 		034CDE6914FFE2F000193D04 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
+					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactionSlideDown/ReactionSlideDown-Prefix.pch";
 				INFOPLIST_FILE = "ReactionSlideDown/ReactionSlideDown-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = bundle;
 			};
